@@ -32,7 +32,8 @@
     "test:coverage": "jest --coverage",
     "type-check": "tsc --noEmit",
     "clean": "rm -rf node_modules dist .expo",
-    "reset": "npm run clean && npm install"
+    "reset": "npm run clean && npm install",
+    "start": "npm run dev"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
